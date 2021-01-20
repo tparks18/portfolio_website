@@ -1,0 +1,178 @@
+
+/* Name */
+p {text-align: center;
+    font-size:30px;
+    font-weight: bold;
+}
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+/* Contact me form */  
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+}
+
+/* Banner and buttons inside the banner */
+
+	#banner {
+		position: relative;
+		padding: 4.5em;
+	}
+
+		#banner h2 {
+			font-size: 3.5em;
+			margin: 0.1em 0 0.35em 0;
+		}
+
+		#banner p {
+			font-size: 2.75em;
+			line-height: 1.35em;
+			margin: 0;
+		}
+
+		#banner .button {
+			width: 100%;
+			margin-bottom: 0.5em;
+		}
+
+			#banner .button.icon:before {
+				position: absolute;
+				right: 0.15em;
+				top: 50%;
+				margin-top: -0.5em;
+			}
+
+			#banner .button.alt {
+				margin-bottom: 0;
+			}
+
+		#banner ul {
+			list-style: none;
+			padding-left: 0;
+			margin: 0 0 0 2em;
+		}
+
+			#banner ul li {
+				padding-left: 0;
+      }
+      
+     	#banner {
+				padding: 4.5em 3em;
+				text-align: center;
+			}
+
+				#banner ul {
+					margin: 2em 0 0 0;
+        }
+        
+        /* Button */
+				#banner .button.icon:before {
+					position: relative;
+					right: auto;
+          top: auto;
+        }
+        #banner .button {
+					margin: 0 0 1em 0;
+        }
+    
+        
+		/* Wrappers */
+	  #banner-wrapper {
+				padding: 0 15px 0 15px;
+      }
+      
+    }
+    /* Box */
+
+	.box {
+		background: #fff;
+		border-radius: 6px;
+		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+		padding: 2em;
+	}
+
+		.box.feature {
+			padding: 0;
+		}
+
+			.box.feature .inner {
+        padding: 4em 2em 3em 2em;
+        
+			}
+
+			.box.feature h2 {
+				font-size: 1.35em;
+			}
+			.box.feature p {
+        margin: 0;
+        
+			}
+
+			.box.feature .image {
+				position: relative;
+				margin: 0;
+			}
+
+				.box.feature .image img {
+          display:block;
+             margin-left: auto;
+            margin-right: auto;
+					border-bottom-left-radius: 0;
+					border-bottom-right-radius: 0;
+        }
+      
